@@ -26,7 +26,7 @@ class PostsRequest extends FormRequest
         return [
             'name'              => 'required|max:191',
             'slug'              => 'nullable|max:191',
-            'intro'             => 'required',
+            // 'intro'             => 'required',
             'content'           => 'required',
             'type'              => 'required|max:191',
             'category_id'       => 'required|numeric',

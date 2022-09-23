@@ -14,7 +14,7 @@ return [
                 'label' => 'App Name', // you know what label it is
                 'rules' => 'required|min:2|max:50', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'Laravel Starter', // default value if you want
+                'value' => 'Fahmi-IT', // default value if you want
             ],
             [
                 'type'  => 'text', // input fields type
@@ -23,7 +23,7 @@ return [
                 'label' => 'Footer Text', // you know what label it is
                 'rules' => 'required|min:2', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => '<a href="https://github.com/nasirkhan/laravel-starter/">Built with ♥ from Bangladesh</a>', // default value if you want
+                'value' => '<a href="https://fahmi-it.com">fahmi-it.com</a>', // default value if you want
             ],
             [
                 'type'  => 'checkbox', // input fields type
@@ -49,7 +49,7 @@ return [
                 'label' => 'Email', // you know what label it is
                 'rules' => 'required|email', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'info@example.com', // default value if you want
+                'value' => 'info@fahmi-it.com', // default value if you want
             ],
         ],
 
@@ -121,7 +121,7 @@ return [
                 'label' => 'Meta Site Name', // you know what label it is
                 'rules' => 'required', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'Awesome Laravel | A Laravel Starter Project', // default value if you want
+                'value' => 'Fahmi-IT | fahmi-it.com', // default value if you want
             ],
             [
                 'type'  => 'text', // input fields type
@@ -130,7 +130,7 @@ return [
                 'label' => 'Meta Description', // you know what label it is
                 'rules' => 'required', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'A CMS like modular starter application project built with Laravel 9.', // default value if you want
+                'value' => 'Mari belajar bersama tentang Software Developer, Networking, dll', // default value if you want
             ],
             [
                 'type'  => 'text', // input fields type
@@ -139,7 +139,7 @@ return [
                 'label' => 'Meta Keyword', // you know what label it is
                 'rules' => 'required', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'Web Application, Laravel,Laravel starter,Bootstrap,Admin,Template,Open,Source, nasir khan, nasirkhan', // default value if you want
+                'value' => 'networking, linux, programing, php, javascrip, notejs, laravel, codeigniter', // default value if you want
             ],
             [
                 'type'  => 'text', // input fields type
@@ -148,7 +148,7 @@ return [
                 'label' => 'Meta Image', // you know what label it is
                 'rules' => 'required', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'img/default_banner.jpg', // default value if you want
+                'value' => 'img/fahmi-it.png', // default value if you want
             ],
             [
                 'type'  => 'text', // input fields type
@@ -157,7 +157,7 @@ return [
                 'label' => 'Meta Facebook App Id', // you know what label it is
                 'rules' => '', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => '569561286532601', // default value if you want
+                'value' => '#', // default value if you want
             ],
             [
                 'type'  => 'text', // input fields type
@@ -166,7 +166,7 @@ return [
                 'label' => 'Meta Twitter Site Account', // you know what label it is
                 'rules' => '', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => '@nasir8891', // default value if you want
+                'value' => '#', // default value if you want
             ],
             [
                 'type'  => 'text', // input fields type
@@ -175,7 +175,7 @@ return [
                 'label' => 'Meta Twitter Creator Account', // you know what label it is
                 'rules' => '', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => '@nasir8891', // default value if you want
+                'value' => '#', // default value if you want
             ],
         ],
     ],
@@ -193,16 +193,7 @@ return [
                 'rules' => '', // validation rule of laravel
                 'class' => '', // any class for input
                 // 'value' => '123', // any class for input
-                'value' => '<!-- Global site tag (gtag.js) - Google Analytics -->
-                            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36770598-2"></script>
-                            <script>
-                            window.dataLayer = window.dataLayer || [];
-                            function gtag(){dataLayer.push(arguments);}
-                            gtag("js", new Date());
-
-                            gtag("config", "UA-36770598-2");
-                            </script>
-                            ', // default value if you want
+                'value' => '#', // default value if you want
                 'help'     => 'Paste the tracking code in this field.', // Help text for the input field.
                 'display'  => 'raw', // Help text for the input field.
             ],
