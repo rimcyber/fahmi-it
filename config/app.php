@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost-starter.local'),
+    'url' => env('APP_URL', 'http://fahmi-it.com'),
 
     'asset_url' => env('ASSET_URL'),
 
@@ -69,7 +69,7 @@ return [
     |
     */
 
-    'timezone' => 'Asia/Dhaka',
+    'timezone' => 'Asia/Jakarta',
 
     /*
     |--------------------------------------------------------------------------
@@ -121,10 +121,10 @@ return [
     */
 
     'available_locales' => [
-        'ar'=> 'العربی(AR)',
-        'bn'=> 'বাংলা (BN)',
-        'en'=> 'English (EN)',
-        'vi'=> 'Vietnamese (VI)',
+        'ar' => 'العربی(AR)',
+        'bn' => 'বাংলা (BN)',
+        'en' => 'English (EN)',
+        'vi' => 'Vietnamese (VI)',
     ],
 
     /*
