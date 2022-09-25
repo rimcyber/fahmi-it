@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - composer install
     - export DEPLOYPATH=/home/fahb4761/public_html/
     - /bin/cp -R * $DEPLOYPATH
+
